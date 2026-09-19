@@ -32,4 +32,4 @@ Scaffold a new project automatically using the **Qyro CLI**:
 
 ```bash
 # Create a Tkinter project
-qyro init my-app --binding Tkinter
+qyro init -n my-app --binding Tkinter
