@@ -1,65 +1,35 @@
-# Qyro App
+# 🪶 Qyro Tkinter Desktop Boilerplate
 
-This application is built using [Qyro](https://qyro.neuri.ai/), a modern **Python-based application library** for building **desktop and mobile applications**.
+> **The official, zero-dependency Tkinter desktop starter template for the [Qyro](https://github.com/Neuri-AI/qyro) ecosystem.**
 
-Qyro is **not a traditional library**. It provides a local runtime that powers native-like applications, including:
+[![Python](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://python.org)
+[![Framework](https://img.shields.io/badge/GUI-Tkinter%20(Built--in)-green.svg)](https://docs.python.org/3/library/tkinter.html)
+[![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
-- Desktop apps (Windows, macOS, Linux)
-- Mobile apps (iOS, Android)
-- Packaging and installer generation
+---
 
+## 🌟 Overview
 
-## Installation
+`qyro-boilerplate-tkinter` is the lightweight, zero-dependency starter template used by `qyro-cli` to scaffold desktop applications in seconds. It uses Python's built-in `tkinter` library while giving you modern tooling: reactive state, smart asset resolution, and simplified packaging.
 
-```bash
-poetry install
-```
+Perfect for lightweight utilities, internal tools, and projects where bundle size and instant startup matter.
 
-This installs all the required dependencies for the application.
+---
 
-## Run application
+## ✨ Features
 
-```bash
-qyro start
-```
+* **🪶 Zero External GUI Dependencies:** Runs out of the box using Python's standard library.
+* **⚡ Reactive State Management:** Centralized state store and event subscriptions directly in your Tkinter app.
+* **📦 Smart Resource Resolver:** Automated detection of icons and images (`resources/base/`, `resources/windows/`, `resources/mac/`, `resources/linux/`).
+* **❄️ Packaging Ready:** Pre-configured for building ultra-compact executables with PyInstaller.
+* **🎨 Window Auto-Config:** Automatic window title, sizing, and icon binding from `settings/base.json`.
 
-This command starts the **local application runtime** and launches the app window.
+---
 
-## Build (debug)
+## 🚀 Usage
 
-```bash
-qyro freeze
-```
-
-This command builds the application into the `build/` directory for debugging and testing purposes.
-
-
-## Build (production)
+Scaffold a new project automatically using the **Qyro CLI**:
 
 ```bash
-qyro freeze --profile production
-```
-
-This command creates an optimized production build of the application.
-
-## Package application
-
-```bash
-qyro package
-```
-
-This command generates **platform-specific installers** for your application
-(e.g. `.exe`, `.dmg`, `.AppImage`, mobile packages, depending on target).
-
-
-## License
-
-This project is licensed under the MIT License.
-See the [LICENSE](LICENSE) file for details.
-
-
-
-<div>Iconos diseñados por <a href="https://www.flaticon.es/autores/samlakodad" title="samlakodad">samlakodad</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
-
-You can create Icon.ico from the .png files with
-[an online tool](http://icoconvert.com/Multi_Image_to_one_icon/).
+# Create a Tkinter project
+qyro init my-app --binding Tkinter
