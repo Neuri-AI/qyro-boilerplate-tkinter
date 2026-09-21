@@ -3,7 +3,7 @@ from qyro_engine import ApplicationContext
 from qyro_engine.ui.component import Component
 
 
-class TkApp(tk.Tk, Component, ApplicationContext):
+class ${class_name}(tk.Tk, Component, ApplicationContext):
 
     def component_will_mount(self):
         self.geometry("640x480")
