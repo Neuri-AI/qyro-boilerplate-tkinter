@@ -1,25 +1,25 @@
 {
-    "categories": "Utility;",
-    "description": "",
-    "author_email": "",
-    "url": "",
     "bundle_mode": "onedir",
+    "uac": {
+        "level": "asInvoker",
+        "ui_access": false
+    },
     "debug": {
         "enabled": false,
-        "console": false
+        "console_window": false
     },
     "optimization": {
         "strip_binaries": false,
         "clean_build": false,
         "upx_enabled": false,
         "upx_level": 1,
-        "bytecode_opt": 0,
         "upx_excludes": [
-            "libpython3*.so*",
-            "QtCore.abi3.so"
+            "vcruntime140.dll",
+            "python3*.dll",
+            "${binding}.QtCore.pyd"
         ],
+        "bytecode_opt": 0,
         "exclude_modules": [
-            "tkinter",
             "unittest",
             "test",
             "pydoc"
