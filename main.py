@@ -1,6 +1,6 @@
 import tkinter as tk
-from qyro_engine import ApplicationContext
-from qyro_engine.ui.component import Component
+from qyro import ApplicationContext
+from qyro.ui.component import Component
 
 
 class ${class_name}(tk.Tk, Component, ApplicationContext):
