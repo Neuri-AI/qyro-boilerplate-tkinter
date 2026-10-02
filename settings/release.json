@@ -28,7 +28,16 @@
                 "source": "README.md",
                 "destination": "README.md"
             }
-        ]
+        ],
+        "nsis": {
+            "icons": {
+                "install": "resources/base/icons/install.ico",
+                "uninstall": "resources/base/icons/uninstall.ico"
+            },
+            "welcome_bitmap": "",
+            "install_location": "programfiles64",
+            "execution_level": "highest"
+        }
     },
     "sign": {
         "windows": {
