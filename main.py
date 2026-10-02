@@ -27,4 +27,4 @@ class ${class_name}(tk.Tk, Component, ApplicationContext):
 
 if __name__ == "__main__":
     window = ${class_name}()
-    window.exec()
+    window.run()
