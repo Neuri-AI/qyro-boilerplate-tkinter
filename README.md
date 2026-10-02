@@ -2,7 +2,7 @@
 
 > **The official, zero-dependency Tkinter desktop starter template for the [Qyro](https://github.com/Neuri-AI/qyro) ecosystem.**
 
-[![Python](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://python.org)
+[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue.svg)](https://python.org)
 [![Framework](https://img.shields.io/badge/GUI-Tkinter%20(Built--in)-green.svg)](https://docs.python.org/3/library/tkinter.html)
 [![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
